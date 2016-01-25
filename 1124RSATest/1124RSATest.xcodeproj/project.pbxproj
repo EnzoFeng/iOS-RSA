@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44905D101C03EE7D002B306D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44905D0F1C03EE7D002B306D /* main.m */; };
+		44905D131C03EE7D002B306D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44905D121C03EE7D002B306D /* AppDelegate.m */; };
+		44905D161C03EE7D002B306D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44905D151C03EE7D002B306D /* ViewController.m */; };
+		44905D191C03EE7D002B306D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44905D171C03EE7D002B306D /* Main.storyboard */; };
+		44905D1B1C03EE7D002B306D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44905D1A1C03EE7D002B306D /* Images.xcassets */; };
+		44905D1E1C03EE7D002B306D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44905D1C1C03EE7D002B306D /* LaunchScreen.xib */; };
+		44905D2A1C03EE7D002B306D /* _124RSATestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44905D291C03EE7D002B306D /* _124RSATestTests.m */; };
+		44905D391C03EF77002B306D /* RSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 44905D381C03EF77002B306D /* RSAEncryptor.m */; };
+		44905D3D1C03F253002B306D /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 44905D3C1C03F253002B306D /* NSData+Base64.m */; };
+		44905D401C03F36C002B306D /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 44905D3F1C03F36C002B306D /* NSString+Base64.m */; };
+		44905D421C03F4C7002B306D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44905D411C03F4C7002B306D /* Security.framework */; };
+		44E314C71C55FEDC00F80A72 /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 44E314C61C55FEDC00F80A72 /* private_key.p12 */; };
+		44E314C91C55FF0E00F80A72 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 44E314C81C55FF0E00F80A72 /* public_key.der */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44905D241C03EE7D002B306D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44905D021C03EE7D002B306D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44905D091C03EE7D002B306D;
+			remoteInfo = 1124RSATest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44905D0A1C03EE7D002B306D /* 1124RSATest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1124RSATest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44905D0E1C03EE7D002B306D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44905D0F1C03EE7D002B306D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44905D111C03EE7D002B306D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44905D121C03EE7D002B306D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44905D141C03EE7D002B306D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44905D151C03EE7D002B306D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44905D181C03EE7D002B306D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44905D1A1C03EE7D002B306D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44905D1D1C03EE7D002B306D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		44905D231C03EE7D002B306D /* 1124RSATestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1124RSATestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44905D281C03EE7D002B306D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44905D291C03EE7D002B306D /* _124RSATestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _124RSATestTests.m; sourceTree = "<group>"; };
+		44905D371C03EF77002B306D /* RSAEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryptor.h; sourceTree = "<group>"; };
+		44905D381C03EF77002B306D /* RSAEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAEncryptor.m; sourceTree = "<group>"; };
+		44905D3B1C03F253002B306D /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		44905D3C1C03F253002B306D /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		44905D3E1C03F36C002B306D /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		44905D3F1C03F36C002B306D /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		44905D411C03F4C7002B306D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		44E314C61C55FEDC00F80A72 /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
+		44E314C81C55FF0E00F80A72 /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44905D071C03EE7D002B306D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44905D421C03F4C7002B306D /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44905D201C03EE7D002B306D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44905D011C03EE7D002B306D = {
+			isa = PBXGroup;
+			children = (
+				44905D411C03F4C7002B306D /* Security.framework */,
+				44905D0C1C03EE7D002B306D /* 1124RSATest */,
+				44905D261C03EE7D002B306D /* 1124RSATestTests */,
+				44905D0B1C03EE7D002B306D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44905D0B1C03EE7D002B306D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44905D0A1C03EE7D002B306D /* 1124RSATest.app */,
+				44905D231C03EE7D002B306D /* 1124RSATestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44905D0C1C03EE7D002B306D /* 1124RSATest */ = {
+			isa = PBXGroup;
+			children = (
+				44E314C61C55FEDC00F80A72 /* private_key.p12 */,
+				44E314C81C55FF0E00F80A72 /* public_key.der */,
+				44905D111C03EE7D002B306D /* AppDelegate.h */,
+				44905D121C03EE7D002B306D /* AppDelegate.m */,
+				44905D141C03EE7D002B306D /* ViewController.h */,
+				44905D151C03EE7D002B306D /* ViewController.m */,
+				44905D3B1C03F253002B306D /* NSData+Base64.h */,
+				44905D3C1C03F253002B306D /* NSData+Base64.m */,
+				44905D3E1C03F36C002B306D /* NSString+Base64.h */,
+				44905D3F1C03F36C002B306D /* NSString+Base64.m */,
+				44905D371C03EF77002B306D /* RSAEncryptor.h */,
+				44905D381C03EF77002B306D /* RSAEncryptor.m */,
+				44905D171C03EE7D002B306D /* Main.storyboard */,
+				44905D1A1C03EE7D002B306D /* Images.xcassets */,
+				44905D1C1C03EE7D002B306D /* LaunchScreen.xib */,
+				44905D0D1C03EE7D002B306D /* Supporting Files */,
+			);
+			path = 1124RSATest;
+			sourceTree = "<group>";
+		};
+		44905D0D1C03EE7D002B306D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44905D0E1C03EE7D002B306D /* Info.plist */,
+				44905D0F1C03EE7D002B306D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44905D261C03EE7D002B306D /* 1124RSATestTests */ = {
+			isa = PBXGroup;
+			children = (
+				44905D291C03EE7D002B306D /* _124RSATestTests.m */,
+				44905D271C03EE7D002B306D /* Supporting Files */,
+			);
+			path = 1124RSATestTests;
+			sourceTree = "<group>";
+		};
+		44905D271C03EE7D002B306D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44905D281C03EE7D002B306D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44905D091C03EE7D002B306D /* 1124RSATest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44905D2D1C03EE7D002B306D /* Build configuration list for PBXNativeTarget "1124RSATest" */;
+			buildPhases = (
+				44905D061C03EE7D002B306D /* Sources */,
+				44905D071C03EE7D002B306D /* Frameworks */,
+				44905D081C03EE7D002B306D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 1124RSATest;
+			productName = 1124RSATest;
+			productReference = 44905D0A1C03EE7D002B306D /* 1124RSATest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44905D221C03EE7D002B306D /* 1124RSATestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44905D301C03EE7D002B306D /* Build configuration list for PBXNativeTarget "1124RSATestTests" */;
+			buildPhases = (
+				44905D1F1C03EE7D002B306D /* Sources */,
+				44905D201C03EE7D002B306D /* Frameworks */,
+				44905D211C03EE7D002B306D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44905D251C03EE7D002B306D /* PBXTargetDependency */,
+			);
+			name = 1124RSATestTests;
+			productName = 1124RSATestTests;
+			productReference = 44905D231C03EE7D002B306D /* 1124RSATestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44905D021C03EE7D002B306D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = FengZhen;
+				TargetAttributes = {
+					44905D091C03EE7D002B306D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					44905D221C03EE7D002B306D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 44905D091C03EE7D002B306D;
+					};
+				};
+			};
+			buildConfigurationList = 44905D051C03EE7D002B306D /* Build configuration list for PBXProject "1124RSATest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44905D011C03EE7D002B306D;
+			productRefGroup = 44905D0B1C03EE7D002B306D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44905D091C03EE7D002B306D /* 1124RSATest */,
+				44905D221C03EE7D002B306D /* 1124RSATestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44905D081C03EE7D002B306D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44905D191C03EE7D002B306D /* Main.storyboard in Resources */,
+				44905D1E1C03EE7D002B306D /* LaunchScreen.xib in Resources */,
+				44905D1B1C03EE7D002B306D /* Images.xcassets in Resources */,
+				44E314C91C55FF0E00F80A72 /* public_key.der in Resources */,
+				44E314C71C55FEDC00F80A72 /* private_key.p12 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44905D211C03EE7D002B306D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44905D061C03EE7D002B306D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44905D401C03F36C002B306D /* NSString+Base64.m in Sources */,
+				44905D161C03EE7D002B306D /* ViewController.m in Sources */,
+				44905D131C03EE7D002B306D /* AppDelegate.m in Sources */,
+				44905D3D1C03F253002B306D /* NSData+Base64.m in Sources */,
+				44905D101C03EE7D002B306D /* main.m in Sources */,
+				44905D391C03EF77002B306D /* RSAEncryptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44905D1F1C03EE7D002B306D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44905D2A1C03EE7D002B306D /* _124RSATestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44905D251C03EE7D002B306D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44905D091C03EE7D002B306D /* 1124RSATest */;
+			targetProxy = 44905D241C03EE7D002B306D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44905D171C03EE7D002B306D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44905D181C03EE7D002B306D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44905D1C1C03EE7D002B306D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44905D1D1C03EE7D002B306D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44905D2B1C03EE7D002B306D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44905D2C1C03EE7D002B306D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44905D2E1C03EE7D002B306D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 1124RSATest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44905D2F1C03EE7D002B306D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 1124RSATest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		44905D311C03EE7D002B306D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = 1124RSATestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1124RSATest.app/1124RSATest";
+			};
+			name = Debug;
+		};
+		44905D321C03EE7D002B306D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = 1124RSATestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1124RSATest.app/1124RSATest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44905D051C03EE7D002B306D /* Build configuration list for PBXProject "1124RSATest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44905D2B1C03EE7D002B306D /* Debug */,
+				44905D2C1C03EE7D002B306D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44905D2D1C03EE7D002B306D /* Build configuration list for PBXNativeTarget "1124RSATest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44905D2E1C03EE7D002B306D /* Debug */,
+				44905D2F1C03EE7D002B306D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44905D301C03EE7D002B306D /* Build configuration list for PBXNativeTarget "1124RSATestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44905D311C03EE7D002B306D /* Debug */,
+				44905D321C03EE7D002B306D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44905D021C03EE7D002B306D /* Project object */;
+}
